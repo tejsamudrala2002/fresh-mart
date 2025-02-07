@@ -1,0 +1,347 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e8d524;
+    padding: 15px;
+    color: white;
+  }
+  
+  .header h2 {
+    margin: 0;
+  }
+  
+  .header input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 10px;
+    margin-top:1%;
+    height: 5%;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    background: #e6f604;
+    border-radius: 5px;
+  }
+  
+  .navbar a span {
+    background: rgb(201, 21, 21);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  .navbar a[href*="cart"] {
+  background: #df5f0a;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+.login {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.login input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.login button:hover {
+  background: #b30000;
+}
+
+
+/* non veg items style */
+
+.nonveg {
+  text-align: center;
+  padding: 20px;
+}
+
+.nonveg ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.nonveg li {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  text-align: center;
+  width: 200px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nonveg-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+/* veg style */
+
+ .veg ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.veg li {
+  text-align: center;
+  width: 160px; /* Adjust container width */
+  margin-left:55px;
+  
+}
+
+.veg-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Ensures images remain proportional */
+  border-radius: 10px; /* Optional: Rounds the corners */
+}
+
+
+.silder{
+  height: 100%;
+}
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      body {
+       
+          font-family: Arial, sans-serif;
+      }
+      footer {
+        margin-top: 25px;
+          background: #222;
+          color: white;
+          padding: 20px 0;
+          text-align: center;
+      }
+      .footer-container {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          max-width: 1000px;
+          margin: auto;
+      }
+      .footer-section {
+          margin: 10px;
+      }
+      .footer-section h3 {
+          margin-bottom: 10px;
+      }
+      .footer-section a {
+          color: white;
+          text-decoration: none;
+          display: block;
+          margin: 5px 0;
+      }
+      .footer-section a:hover {
+          color: #f0a500;
+      }
+      .social-icons a {
+          display: inline-block;
+          margin: 0 10px;
+          font-size: 20px;
+      }
+      .copyright {
+          margin-top: 10px;
+          font-size: 14px;
+      }
+
+
+      /* cart */
+      .cartdiv {
+        width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 2px solid #4CAF50;
+        border-radius: 10px;
+        background-color: #f9fff9;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+    }
+    
+    .cartdiv h2 {
+        color: #2E7D32;
+        font-size: 22px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    
+    .cartdiv ol {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .cartdiv li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        font-size: 16px;
+    }
+    
+    .cartdiv li:last-child {
+        border-bottom: none;
+    }
+    
+    .cartdiv button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background 0.3s ease, transform 0.2s;
+        margin: 5px;
+    }
+    
+    .cartdiv button:hover {
+        background-color: #388E3C;
+        transform: scale(1.05);
+    }
+    
+    .cartdiv input {
+        width: 80%;
+        padding: 8px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .cartdiv p {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 8px 0;
+    }
+    
+    .buy-now {
+        display: block;
+        width: 100%;
+        background-color: #FF5722;
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .buy-now:hover {
+        background-color: #E64A19;
+    }
+    
+    .discount-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px 0;
+    }
+    
+    @media (max-width: 500px) {
+        .cartdiv {
+            width: 90%;
+        }
+    
+        .discount-buttons {
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+    body{
+      height: 20cm;
+    }
