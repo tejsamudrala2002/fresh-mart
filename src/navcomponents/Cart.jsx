@@ -9,6 +9,7 @@ function Cart(){
 const cartObjects=useSelector(state=>state.cart);
 const cartItems=cartObjects.map((item,index)=>(
   <li key={index}>
+    {item.image}
     {item.name}-{item.price}  <button onClick={()=>dispatch(decrement(item))}>-</button>{item.quantity}<button onClick={()=>dispatch(increment(item))}>+</button>  Bill={item.price}*{item.quantity}
     {/* <button onClick={()=>dispatch(remove())}>Remove</button> */}
   </li>
@@ -64,6 +65,7 @@ const cartItems=cartObjects.map((item,index)=>(
      <div className="cartdiv">
            <h2> welcome to cart</h2> 
              <ol>{cartItems}</ol>
+             
                <p>Total price:{finalPrice}</p>
                <p>discount Applied:{discountrate}%</p>
                <p>Discount Amount:{discountAmount}</p>
