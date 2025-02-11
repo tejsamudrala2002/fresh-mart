@@ -3,7 +3,7 @@ function Home(){
         <>
        <div className="slider">
                <h1>welocome to home</h1>
-
+                
 
        </div>
 
