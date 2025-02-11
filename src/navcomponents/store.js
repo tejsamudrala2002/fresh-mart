@@ -17,11 +17,11 @@ const productSlice=createSlice({
         
         ],
 
-        Nonveg:[{name:'chicken',price:40.6 ,image:"public/chicken.jpg"},
-                {name:'mutton',price:900.00,image:"public/mutton.jpg"},
-                {name:'fish',price:300.00,image:"public/fish.jpg"},
-                {name:'eggs',price:300.00,image:"public/eggs.jpg"},
-             {name:'prawns',price:300.00,image:"public/prawns.jpg"}]
+        Nonveg:[{name:'chicken',price:40.6 ,image:"chicken.jpg"},
+                {name:'mutton',price:900.00,image:"mutton.png"},
+                {name:'fish',price:300.00,image:"fish.jpg"},
+                {name:'eggs',price:300.00,image:"eggs.jpg"},
+             {name:'prawns',price:300.00,image:"prawns.jpg"}]
     },
     reducers:{}
 })
