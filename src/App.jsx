@@ -5,6 +5,7 @@ import "./App.css";
 
 
 
+
 import Veg from "./navcomponents/Veg";
 import Cart from "./navcomponents/Cart";
 import About from "./navcomponents/About";
@@ -14,6 +15,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Login from "./navcomponents/Login";
 
 import { logout } from "./navcomponents/store";
+import Search from "./navcomponents/Search";
 
 function App(){
    let carts = useSelector(state => state.cart );
@@ -30,25 +32,23 @@ return(
     <> 
     <div className="main"> <BrowserRouter>
     <div className="header">
- <h2>E-Commerce</h2>
+ <h2 className="fresh">Fresh-Mart</h2>
  
- <div>
- <input type="text" placeholder="&#128269; |search" />
- <button>serach</button>
- </div>
- <Link to="/cart">&#128722; Cart <span>{total}</span></Link>
+ {/* <div>
+ <Search/>
+ </div> */}
  
     </div>
    
     <div className="navbar">
      <nav className="nav">
-         <Link to='/home'>Home</Link>
+         <Link to='/home'><i class="fa-thin fa-house"></i>Home</Link>
          <Link to='/nonveg'>🍗Nonveg</Link>
          <Link to='/veg'>🥦Veg</Link>
          <Link to='/dairy'>Diary Products</Link>
          <Link to='/about'>About US</Link>
          <Link to='/orders' className="orders">Orders</Link>
-        <Link to='/cart'>&#128722;cart</Link> 
+        <Link to='/cart'>&#128722;cart<span>{total}</span></Link> 
 
       {isAuthenticated ?( 
          <>

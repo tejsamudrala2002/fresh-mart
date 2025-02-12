@@ -25,7 +25,16 @@ body {
   }
   
   .header h2 {
+    padding-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ed0606;
+
     margin: 0;
+  }
+  .fresh1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e89797;
+
   }
   
   .header input {
@@ -170,6 +179,7 @@ button:hover {
   list-style: none;
   padding: 0;
 }
+
 
 .veg li {
   text-align: center;

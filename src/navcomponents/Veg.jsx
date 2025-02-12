@@ -28,7 +28,7 @@ const dispatch=useDispatch();
     return(
         <>
         <div className="veg"> 
-        <h3>veg items</h3>
+        <h1>veg items</h1>
         <ul>{findVegItems}</ul></div>
         </>
     )

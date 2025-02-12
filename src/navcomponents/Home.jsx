@@ -1,9 +1,12 @@
+import NonVeg from "./NonVeg";
+import Veg from "./Veg";
+
 function Home(){
     return(
         <>
        <div className="slider">
-               <h1>welocome to home</h1>
-                
+          <Veg/>
+          <NonVeg/>
 
        </div>
 
