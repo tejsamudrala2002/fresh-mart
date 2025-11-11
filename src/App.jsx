@@ -1,13 +1,11 @@
 import React from "react";
 import Search from "./navcomponents/Search";
-import Search from "./navcomponents/Search";
-import
 function App() {
   return (
     <div>
       <h1 className="text-2xl font-bold text-center mt-4">React Mart</h1>
       <search/>
-      
+      <h1>hello</h1>
     </div>
   );
 }
