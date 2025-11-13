@@ -72,5 +72,5 @@ function App() {
       </BrowserRoute>
     </div>
   );
-
+}
 export default App;
