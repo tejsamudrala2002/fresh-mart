@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Search from "./navcomponents/Search";
 import Login from "./navcomponents/Login";
 import About from "./navcomponents/About";
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="main">
-      <BrowserRoute>
+      <BrowserRouter>
         {/* HEADER SECTION */}
         <header className="header">
           <h2>
@@ -68,7 +68,7 @@ function App() {
             © {new Date().getUTCFullYear()} Fresh Mart | All Rights Reserved
           </p>
         </footer>
-      </BrowserRoute>
+      </BrowserRouter>
     </div>
   );
 }
