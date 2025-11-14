@@ -1,4 +1,3 @@
-import React from "react";
 import { useSelector } from "react-redux";
 import { Link, Route, Routes } from "react-router-dom";
 import Search from "./navcomponents/Search";
